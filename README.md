@@ -11,6 +11,10 @@ A Unity dungeon prototype with player movement, enemy pursuit, key collection, d
 - A 60-second countdown with an on-screen time label.
 - Historical prototype limitations: the timeout displays a message, and collision win/lose logic pauses the scene rather than using a finished end-state menu.
 
+## Native build
+
+A [macOS build helper and commands](docs/MAC_BUILD.md) are available. They require the complete original assets and Unity 2022.3.47f1. A successful native build and gameplay recording are still pending.
+
 ## Run and inspect
 
 Read [asset setup](docs/ASSET_SETUP.md) before opening Unity. This is an authored-source archive; imported artwork must be restored separately. Build scenes are retained in `ProjectSettings/EditorBuildSettings.asset`.
