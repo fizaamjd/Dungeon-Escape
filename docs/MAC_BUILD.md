@@ -2,10 +2,10 @@
 
 Use Unity 2022.3.47f1 with an activated license and the complete original Assets folder. The public authored-source archive excludes imported artwork; restore it before compiling. Work from a copy of the original project to preserve the archive.
 
-The helper builds all enabled scenes in their stored order. Dungeon Escape has no saved build-scene list, so the helper explicitly falls back to its SampleScene. Cosmic Resurgence keeps its cutscene, menu, three planet levels and ending scenes.
+The helper builds all enabled scenes in their stored order. Unity Level Design has no saved build-scene list, so the helper explicitly falls back to its SampleScene. Cosmic Resurgence keeps its cutscene, menu, three planet levels and ending scenes.
 
 ```sh
-GAME_BUILD_OUTPUT="/absolute/output/Dungeon Escape.app" \
+GAME_BUILD_OUTPUT="/absolute/output/Unity Level Design.app" \
 "/Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/MacOS/Unity" \
   -batchmode -quit -projectPath "/absolute/path/to/complete-project" \
   -executeMethod PortfolioBuild.Mac -logFile "/absolute/output/build.log"
